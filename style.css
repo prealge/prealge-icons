@@ -1,0 +1,131 @@
+.smiley-icon-large {
+  position: relative;
+  display: inline-block;
+  width: calc(50px * 0.9);
+  height: calc(50px * 0.9);
+  border: solid calc(50px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon-large:before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 17.5%;
+  height: 0;
+  width: 0;
+  border: solid calc(50px * 0.1) currentColor;
+  border-radius: 50%;
+  box-shadow: calc(50px * 0.40) 0 0 0;
+}
+
+.smiley-icon-large:after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  border: solid calc(50px * 0.05) transparent;
+  border-bottom: solid calc(50px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon {
+  position: relative;
+  display: inline-block;
+  width: calc(30px * 0.9);
+  height: calc(30px * 0.9);
+  border: solid calc(30px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon:before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 17.5%;
+  height: 0;
+  width: 0;
+  border: solid calc(30px * 0.1) currentColor;
+  border-radius: 50%;
+  box-shadow: calc(30px * 0.40) 0 0 0;
+}
+
+.smiley-icon:after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  border: solid calc(30px * 0.05) transparent;
+  border-bottom: solid calc(30px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon-small {
+  position: relative;
+  display: inline-block;
+  width: calc(20px * 0.9);
+  height: calc(20px * 0.9);
+  border: solid calc(20px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon-small:before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 17.5%;
+  height: 0;
+  width: 0;
+  border: solid calc(20px * 0.1) currentColor;
+  border-radius: 50%;
+  box-shadow: calc(20px * 0.40) 0 0 0;
+}
+
+.smiley-icon-small:after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  border: solid calc(20px * 0.05) transparent;
+  border-bottom: solid calc(20px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon-tiny {
+  position: relative;
+  display: inline-block;
+  width: calc(10px * 0.9);
+  height: calc(10px * 0.9);
+  border: solid calc(10px * 0.05) currentColor;
+  border-radius: 50%;
+}
+
+.smiley-icon-tiny:before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: 17.5%;
+  height: 0;
+  width: 0;
+  border: solid calc(10px * 0.1) currentColor;
+  border-radius: 50%;
+  box-shadow: calc(10px * 0.40) 0 0 0;
+}
+
+.smiley-icon-tiny:after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  height: 50%;
+  border: solid calc(10px * 0.05) transparent;
+  border-bottom: solid calc(10px * 0.05) currentColor;
+  border-radius: 50%;
+}
