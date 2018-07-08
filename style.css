@@ -131,9 +131,14 @@
 }
 
 .pencil-icon {
+  --width: 30px;
+  --height: 30px;
+}
+
+.pencil-icon {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: var(--width, 30px);
+  height: var(--height, 30px);
   transform: rotate(-135deg);
 }
 
@@ -153,10 +158,10 @@
   height: 0;
   left: 42.5%;
   position: absolute;
-  border-bottom: solid currentColor calc(30px * 0.18);
+  border-bottom: solid currentColor calc(var(--height, 30px) * 0.18);
   border-top: solid transparent 0px;
-  border-left: solid transparent calc(30px * 0.065);
-  border-right: solid transparent calc(30px * 0.065);
+  border-left: solid transparent calc(var(--width, 30px) * 0.065);
+  border-right: solid transparent calc(var(--width, 30px) * 0.065);
 }
 
 .pencil-icon i {
