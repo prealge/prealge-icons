@@ -10,9 +10,12 @@ To add an icon, you simply need a `<div>` with one of the follow classes. If it 
  - `pencil-icon` (i required)
 
 
+
 Here is an example of the class `smiley-icon`. It does not require an `<i>` tag.
 
 `<div class='smiley-icon'></div>`
+
+
 
 Here is an example of the class `pencil-icon`, which does require an `<i>` tag.
 
