@@ -23,9 +23,10 @@ Here is an example of the class `pencil-icon`, which does require an `<i>` tag.
 `<div class='pencil-icon'><i></i></div>`
 
 
-To change the size of some icons, you can just set the width and height, as shown below. These say responsive beside them. You can use px, any unit based off of px, or percents.
+To change the size of some icons, you can just set the `width` and `height`, as shown below. These say responsive beside them. You can use px, any unit based off of px, or percents.
 
 `<div class='pencil-icon' style='width: 50px; height: 50px;'><i></i></div>`
 
+If the icon that you want to use is not responsive, you can change the `--size` to px or any px based unit.
 
-
+`<div class='pencil-icon' style='--size: 50px;'><i></i></div>`
