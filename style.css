@@ -96,8 +96,7 @@
   height: 25%;
   left: 20%;
   top: 0%;
-  color: white;
-  background-color: currentColor;
+  background-color: var(--background-color, white);
 }
 
 .save-icon i {
@@ -107,7 +106,7 @@
   height: 40%;
   left: 20%;
   top: 50%;
-  background-color: white;
+  background-color: var(--background-color, white);
 }
 
 .save-icon i:before {
